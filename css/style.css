@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+header {
+    background: url(../img/huntington.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    padding: 3% 3%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    
+    font-family: 'Satisfy';
+    color: whitesmoke;
+    text-align: center;
+
+    font-size: 2.5vh;
+    font-weight: 100;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Roboto';
+    text-shadow: 0.2vh 0.6vh 0.2vh black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 100;
+
+}
+
+p, li {
+    
+    font-family: 'IBM Plex Mono';
+    font-size: 90%;
+    color: slategrey;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+li {
+    font-family: 'IBM Plex Mono';
+    font-size: 90%;
+    color: slategrey;
+}
+
+
+h3 {
+    
+    font-family: 'IBM Plex Mono';
+    padding-top: 3%;
+
+    font-size: 110%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: slategrey;
+}
+
+.participation, .benefits{
+    background: url(../img/bamboo.png);
+    background-color: #749D7A;
+    padding-bottom: 1%;
+}
+
+.benefits p, .participation p {
+    color: whitesmoke
+}
+.benefits h3 {
+    margin-top: -2%
+}
+
+.participation a {
+    color: #3E5A42;
+}
+
+div [role=contentinfo] {
+    background-color: #749D7A;
+    padding: 1.5%;
+    font-size: 110%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+div [role=contentinfo] a {
+    font-family: 'Satisfy';
+    color: whitesmoke;
+    font-size: 170%;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+footer {
+    background-color: #224C4B;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-html5, .fa-css3, .fa-creative-commons, .fa-accessible-icon, .fa-github {
+    font-size: 5vh;
+    color: white;
+    margin: 0.5em;
+}
+
+.fa-html5:hover, .fa-css3:hover, .fa-creative-commons:hover, .fa-accessible-icon:hover, .fa-github:hover {
+    color: slategrey;
+}
+
+.select, .archives, .resources {
+    display: none;
+}
+
+.design-selection, .design-archives {
+    text-align: center;
+    background-color: #D5E2D6;
+    column-count: 2;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+}
+
+.design-selection li, .design-archives li{
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid slategrey;
+    padding: 1.5em 10%;
+}
+
+.zen-resources {
+    text-align: center;
+    background: url(../img/bamboo.png);
+    background-color: #749D7A;
+    column-count: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.zen-resources li {
+    width: 50%;
+    margin: 0;
+    padding: 1.5em 10%;
+    float: left;
+}
+
+.zen-resources li a {
+    color: #3E5A42;
+}
+
+.design-selection li :nth-child(1), .design-selection li {
+    color: black;
+}
+
+/* Reording "Select a Design:" list for column */
+.design-selection ul :nth-child(1) {
+    order: 1;
+}
+.design-selection ul :nth-child(2) {
+    order: 5;
+}
+.design-selection ul :nth-child(3) {
+    order: 2;
+}
+.design-selection ul :nth-child(4) {
+    order: 6;
+}
+.design-selection ul :nth-child(5) {
+    order: 3;
+}
+.design-selection ul :nth-child(6) {
+    order: 7;
+}
+.design-selection ul :nth-child(7) {
+    order: 4;
+}
+.design-selection ul :nth-child(8) {
+    order: 8;
+}
