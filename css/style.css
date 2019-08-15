@@ -114,7 +114,7 @@ footer {
     margin: 0.5em;
 }
 
-.fa-html5:hover, .fa-css3:hover, .fa-creative-commons:hover, .fa-accessible-icon:hover, .fa-github:hover {
+.fab:hover {
     color: slategrey;
 }
 
